@@ -1,0 +1,10 @@
+language: python
+
+python:
+  - "3.6"
+  
+before_install:
+  - cd Tic Tac Toe
+  
+script: 
+  - python test_unitTest.py
